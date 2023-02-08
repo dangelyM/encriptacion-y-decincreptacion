@@ -1,0 +1,24 @@
+.titulo{
+    color: #5CA62F;
+    background-color: blue;
+    font-size: 40px; /*tamaño*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+.parrafo1{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+.abc{
+    background-color: blue;
+    color: #ebd40d;
+    padding: 30px;
+
+}
+.titulo2{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
