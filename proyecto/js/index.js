@@ -8,7 +8,7 @@ function ingresar() {
     if (password == passwordsistema) {
         document.getElementById("error").innerHTML = " ";
         location.href = "opciones.html";
-        localStorage.setItem ("nombre" , nombreUsser);
+        localStorage.setItem ("nombre" , nombreusser);
 
     } else {
 
