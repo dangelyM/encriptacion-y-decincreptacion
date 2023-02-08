@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.abc{ 
+    font-family: cursive;
+}
+body{ 
+    background-color: aqua;
+    margin: 20%;
+    border-top-style: dotted;}

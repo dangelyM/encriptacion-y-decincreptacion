@@ -8,17 +8,22 @@ function ingresar() {
     if (password == passwordsistema) {
         document.getElementById("error").innerHTML = " ";
         location.href = "opciones.html";
-        localStorage.setItem ("nombre" , nombreusser);
+        localStorage.setItem("nombre", nombreusser);
 
     } else {
 
         document.getElementById("error").innerHTML = mensajeerror;
     }
-function muestra (){
-    document.getElementById("saludo").innerHTML+=localStorage.getItem("nombre");
+    
+}
+
+
+function muestra() {
+    document.getElementById("saludo").innerHTML += localStorage.getItem("nombre");
 }
 muestra();
-}
+
+
 function redireccion1() {
     location.href = "encriptar.html"
 
